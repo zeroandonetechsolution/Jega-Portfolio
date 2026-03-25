@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founder | Jegatheeshwar</title>
+    
+    <!-- Royal Vintage Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="page-founder">
+    <div class="crt-overlay"></div>
+    <div class="scanlines"></div>
+
+    <main id="dashboard">
+        <div id="background-container"></div>
+
+        <nav class="side-nav">
+            <div class="system-logo">Zero & One</div>
+            <ul class="nav-icons">
+                <li data-link="index.html" title="Vision"><a href="index.html"><span class="icon">Introduction</span></a></li>
+                <li data-link="founder.html" class="active" title="Executive"><a href="founder.html"><span class="icon">The Founder</span></a></li>
+                <li data-link="skills.html" title="Core Skills"><a href="skills.html"><span class="icon">Expertise</span></a></li>
+                <li data-link="projects.html" title="Portfolio"><a href="projects.html"><span class="icon">Selected Works</span></a></li>
+                <li data-link="architecture.html" title="Systems"><a href="architecture.html"><span class="icon">Studio Ecosystem</span></a></li>
+                <li data-link="contact.html" title="Connect"><a href="contact.html"><span class="icon">Contact</span></a></li>
+            </ul>
+        </nav>
+
+        <header class="top-bar">
+            <div class="system-status">
+                <span class="status-item">EST. MMXXIV</span>
+                <span class="status-item" id="system-clock">00:00:00</span>
+            </div>
+            <div class="user-info">Zero & One Tech Solutions</div>
+        </header>
+
+        <div class="p_container">
+            <section id="founder" class="panel active">
+                <div class="panel-header">FOUNDER PROFILE</div>
+                <div class="panel-content">
+                    <div class="founder-card">
+                        <div class="profile-frame">
+                            <img src="assets/jega CEO.png" alt="Jegatheeshwar" id="founder-img">
+                        </div>
+                        <div class="founder-info">
+                            <h2 class="glitch">Jegatheeshwar</h2>
+                            <h3 class="role">Founder & Principal Architect, Zero & One</h3>
+                            <p>A master of the digital medium, dedicated to the creation of sublime web environments. As the lead visionary behind Zero & One, I orchestrate complex technical infrastructures into seamless, premium experiences. My philosophy is rooted in the belief that software should be as elegant as it is powerful—a legacy of precision and visual grace.</p>
+                            <div class="stats">
+                                <div class="stat-item"><span class="stat-val" data-target="8">8</span><span class="stat-label">Bespoke Solutions</span></div>
+                                <div class="stat-item"><span class="stat-val" data-target="2">2</span><span class="stat-label">Years of Mastery</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="notifications"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

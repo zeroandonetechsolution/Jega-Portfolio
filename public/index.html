@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision | Zero & One Tech Solutions</title>
+    
+    <!-- Royal Vintage Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    
+    <link rel="stylesheet" href="index.css">
+    
+    <style>
+        .vision-hero {
+            text-align: left;
+            padding: 40px 0;
+            max-width: 800px;
+        }
+        
+        .vision-hero h1 {
+            font-family: var(--font-heading);
+            font-size: 3.5rem;
+            color: var(--royal-gold);
+            margin-bottom: 24px;
+            line-height: 1.1;
+        }
+        
+        .vision-hero p {
+            font-family: var(--font-body);
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            margin-bottom: 24px;
+            font-style: italic;
+        }
+
+        .vision-hero p strong {
+            color: var(--text-primary);
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body class="page-index">
+    <div class="crt-overlay"></div>
+    <div class="scanlines"></div>
+
+    <main id="dashboard">
+        <div id="background-container"></div>
+
+        <nav class="side-nav">
+            <div class="system-logo">Zero & One</div>
+            <ul class="nav-icons">
+                <li data-link="index.html" class="active" title="Vision"><a href="index.html"><span class="icon">Introduction</span></a></li>
+                <li data-link="founder.html" title="Executive"><a href="founder.html"><span class="icon">The Founder</span></a></li>
+                <li data-link="skills.html" title="Core Skills"><a href="skills.html"><span class="icon">Expertise</span></a></li>
+                <li data-link="projects.html" title="Portfolio"><a href="projects.html"><span class="icon">Selected Works</span></a></li>
+                <li data-link="architecture.html" title="Systems"><a href="architecture.html"><span class="icon">Studio Ecosystem</span></a></li>
+                <li data-link="contact.html" title="Connect"><a href="contact.html"><span class="icon">Contact</span></a></li>
+            </ul>
+        </nav>
+
+        <header class="top-bar">
+            <div class="system-status">
+                <span class="status-item">EST. MMXXIV</span>
+                <span class="status-item" id="system-clock">00:00:00</span>
+            </div>
+            <div class="user-info">Zero & One Tech Solutions</div>
+        </header>
+
+        <div class="p_container">
+            <section id="vision" class="panel active">
+                <div class="panel-header">THE VISION</div>
+                <div class="panel-content">
+                    <div class="vision-hero">
+                        <h1>Crafting Digital Masterpieces</h1>
+                        <p>Welcome to <strong>Zero & One Tech Solutions</strong>. We are a premier digital architecture studio focused on transforming complex enterprise requirements into elegant, high-performance web systems.</p>
+                        <p>In a world saturated with digital noise, we believe true luxury lies in absolute precision. From sophisticated personal finance platforms to end-to-end encrypted communication tools, every line of code is meticulously placed to yield experiences of exceptional quality.</p>
+                        <p>Step inside our digital gallery to explore our selected works, meet the visionary founder, and discover the craftsmanship behind our exclusive solutions.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <div id="notifications"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
